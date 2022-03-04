@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: red; */
+    box-sizing: border-box;
+    font-family: 'Palette Mosaic', cursive;
+}
+header{
+    width: 100%;height: 100vw;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url('taj.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top 
+}
+nav{
+    width: 100%;height: 15vh;
+    background-color: black;color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; text-transform: uppercase;
+}
+nav div.logo{
+    width: 30%;text-align: center; 
+}
+nav div.menu{
+    width: 50%; text-align: center;display: flex; justify-content: space-around;
+    /* background-color: red; */
+}
+nav div.menu a{
+    text-decoration: none; width: 25%;color: white; font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    width: 100%; height: 80vh;display: flex; 
+    justify-content: center; align-items: center;
+    font-weight: bold;text-align: center;color:black
+}
+section{
+
+}
+section h3{
+    font-size: x-large;letter-spacing: 3px;
+    text-shadow:1px 1px 2px black ;
+}
+section h1{
+    margin: 30px 0 20px 0;
+    font-size: 55px; font-weight: 800;text-shadow: 2px 2px  5px brown;
+    text-transform: uppercase;
+}
+section p{
+    font-size: 25px;word-spacing: 2px; margin-bottom: 25px;text-shadow: 1px 1px 1px black;
+}
+section a{
+    padding:12px 30px ; border-radius: 4px;
+    outline: darkgoldenrod;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+    letter-spacing: 1pxj;
+}
+section a.btn1{
+    background:#fff ;
+    color: #000;
+}
+section a.btn2{
+   background: red;
+    color
+    
+}
